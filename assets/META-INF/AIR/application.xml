@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/50.2">
+    <id>NinjaLegends</id>
+    <versionNumber>0.49</versionNumber>
+    <versionLabel>0.49</versionLabel>
+    <filename>Ninja Legends</filename>
+    <description>Ninja Legends</description>
+    <name>Ninja Legends</name>
+    <copyright>Stax Game Studios, LLC</copyright>
+    <initialWindow>
+        <content>NinjaLegends.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <fullScreen>true</fullScreen>
+        <aspectRatio>landscape</aspectRatio>
+        <allowLowQuality>true</allowLowQuality>
+        <renderMode>direct</renderMode>
+        <width>1280</width>
+        <height>720</height>
+        <maximizable>true</maximizable>
+        <minimizable>true</minimizable>
+        <resizable>true</resizable>
+        <autoOrients>true</autoOrients>
+        <x>100</x>
+        <y>100</y>
+    </initialWindow>
+    <icon>
+        
+        
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <image36x36>IconsForPublish/Android/36x36.png</image36x36>
+    <image48x48>IconsForPublish/Android/48x48.png</image48x48>
+    <image72x72>IconsForPublish/Android/72x72.png</image72x72>
+    <image96x96>IconsForPublish/Android/96x96.png</image96x96>
+    <image144x144>IconsForPublish/Android/144x144.png</image144x144>
+    <image192x192>IconsForPublish/Android/192x192.png</image192x192>
+  </icon>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice </supportedProfiles>
+    <android>
+        <manifestAdditions><![CDATA[
+ <manifest android:installLocation="auto">
+            <uses-sdk 
+                android:minSdkVersion="19"
+                android:targetSdkVersion="29" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.WAKE_LOCK"/>
+</manifest>]]></manifestAdditions>
+    </android>
+    <supportedLanguages>en</supportedLanguages>
+    <iPhone>
+        <requestedDisplayResolution>standard</requestedDisplayResolution>
+        <InfoAdditions><![CDATA[
+    <key>UIDeviceFamily</key>
+    <array><string>1</string><string>2</string></array>
+]]></InfoAdditions>
+    </iPhone>
+</application>
